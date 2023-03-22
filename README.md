@@ -4,4 +4,5 @@
 
 TODO:
 
+take guns into infinity
 function lookup hash-table for dumping of modules. assign labels to known functions and their variables.
