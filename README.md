@@ -16,5 +16,7 @@ TODO:
 
 take guns into infinity
 
+enable bandana infinite ammo
+
 function lookup hash-table for dumping of modules. assign labels to known functions and their variables.
 ##
