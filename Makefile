@@ -1,0 +1,3 @@
+#ifdef BUILD_USER
+
+#ifdef BUILD_KERNEL
