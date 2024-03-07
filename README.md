@@ -27,4 +27,4 @@ translations ie.careers
 codename system for adhoc, etc
 ##
 
-##temporary method to disable trophies is to embded an already created save instead of allowing the user to enter their own save
+##temporary method to disable trophies is to embded an already created save instead of allowing the user to enter their own save, using our own custom obf we can lock the system as PSP only
