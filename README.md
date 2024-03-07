@@ -1,3 +1,5 @@
+//TODO: ensure/present an API where the commit presents to code to be latern compiled,and signed by administrator
+
 relocatable executable utility plugin for Final Fantasy games on the PSP which displays the furigana of kanji characters
 
 TODO:
