@@ -15,6 +15,7 @@ TODO:
 
 
 TODO:
+blender plugin for .MDP parsing
 
 take guns into infinity
 
