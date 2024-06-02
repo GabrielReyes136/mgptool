@@ -1,3 +1,8 @@
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PFFMXQ8L78L6J&source=url
+
+
+
+
 //TODO: ensure/present an API where the commit presents to code to be latern compiled,and signed by administrator
 
 relocatable executable utility plugin for Final Fantasy games on the PSP which displays the furigana of kanji characters
