@@ -10,6 +10,10 @@ https://github.com/Jayveer/MGS-MDP-Noesis/blob/master/mgs/mdp/mdp.h
 TODO: utility to dump .MDP from RAM.DUMP
 */
 
+
+/*
+@size im memory (bytes) : 0x10
+*/
 struct vec4 {
 	float x;
 	float y;
@@ -18,17 +22,26 @@ struct vec4 {
 	float w;
 };
 
+/*
+@size im memory (bytes) : 0x08
+*/
 struct vec2Short {
 	uint16_t x;
 	uint16_t y;
 };
 
+/*
+@size im memory (bytes) : 0x0C
+*/
 struct vec3Short {
 	uint16_t x;
 	uint16_t y;
 	uint16_t z;
 };
 
+/*
+@size im memory (bytes) : 0x10
+*/
 struct vec4Short {
 	uint16_t x;
 	uint16_t y;
@@ -37,6 +50,9 @@ struct vec4Short {
 	uint16_t w;
 };
 
+/*
+@size im memory (bytes) : 0x10
+*/
 struct vec4Byte {
 	uint8_t x;
 	uint8_t y;
@@ -45,6 +61,9 @@ struct vec4Byte {
 	uint8_t w;
 };
 
+/*
+@size im memory (bytes) : 0x50
+*/
 struct MdpHeader {
 	uint32_t magic;
 	uint32_t numBones;
@@ -65,6 +84,9 @@ struct MdpHeader {
 	vec4 min;
 };
 
+/*
+@size im memory (bytes) : 0x50
+*/
 struct MdpBone {
 	uint32_t strcode;
 	uint32_t y0;
@@ -78,7 +100,7 @@ struct MdpBone {
 
 
 /*
-@len_byte: 0x10
+@size im memory (bytes) : 0x10
 */
 struct MdpGroup {
 	uint32_t strcode;
@@ -88,6 +110,9 @@ struct MdpGroup {
 	uint32_t pad0;
 };
 
+/*
+@size im memory (bytes) : 0x50
+*/
 struct MdpMesh {
 	uint32_t strcode;
 	uint32_t flag;
@@ -97,12 +122,16 @@ struct MdpMesh {
 	uint32_t skinOffset;
 	uint32_t numVertexBuffer;
   //replace to MSH{0 - 0xFF} omit terminator
+  //used internally by the game. Believed to be texture related
 	uint32_t pad0;
 	vec4 max;
 	vec4 min;
 	vec4 pos;
 };
 
+/*
+@size im memory (bytes) : 0x0C
+*/
 struct MdpFace {
 	uint16_t unknown;
 	uint16_t faceBufferSize;
@@ -110,6 +139,9 @@ struct MdpFace {
 	uint32_t matOffset;
 };
 
+/*
+@size im memory (bytes) : 0x18
+*/
 struct MdpMat {
 	uint32_t strcode;
 	uint32_t unknown;
@@ -119,6 +151,9 @@ struct MdpMat {
 	float specularPower;
 };
 
+/*
+@size im memory (bytes) : 0x04 + hex(numBones)
+*/
 struct MdpSkin {
 	uint16_t pad;
 	uint16_t numBones;
