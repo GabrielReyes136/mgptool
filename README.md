@@ -20,7 +20,7 @@ TODO:
 
 
 TODO:
-blender plugin for .MDP parsing
+blender plugin for .MDP parsing, .MDP viewer EBOOT
 
 take guns into infinity
 
