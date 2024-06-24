@@ -10,6 +10,8 @@ features:
         custom input mapping
         
         graphic rasterisation PSP drivers
+
+        PSP exclusive JSON file processing modules 
         
         usb interoperability 
         
