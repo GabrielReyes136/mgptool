@@ -2,6 +2,7 @@ https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PFFMXQ8L78L
 
          building of this mgptool requires activation key as a security feature, all github based releases of the open-source mgptool build by xor32dotcom come pre-equipped with multiple hashes. The latest stable open source can have at least of the following features:
 features:
+
         embedded build of crt0
         
         lua scripting support
