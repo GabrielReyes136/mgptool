@@ -9,7 +9,7 @@ features:
         
         custom input mapping
         
-        custom graphic rasterisation schemes for the PSP 
+        graphic rasterisation PSP drivers
         
         usb interoperability 
         
