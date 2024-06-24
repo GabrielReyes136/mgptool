@@ -1,6 +1,6 @@
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PFFMXQ8L78L6J&source=url
 
-          source is read-only to protect hash integrity of existing releases verified by the original publisher
+          This source is currently in a read-only state.  
          
 features:
 
