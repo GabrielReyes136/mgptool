@@ -41,3 +41,14 @@ uint * __memset(uint *dst,uint token,uint len)
   }
   return dst;
 }
+
+
+
+int sys_is_emu()
+{
+   / PPSSPP/JPCSP always return 0 for success (ignore res).
+      PSP always returns an error since "emulator:" is not a device. */
+   int res;
+   int ret = sceIoDevctl("emulator:", 3, &res, 4, NULL, 0);
+   return ret == 0;
+}
